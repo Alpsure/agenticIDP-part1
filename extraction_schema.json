@@ -1,0 +1,21 @@
+{
+    "Invoice": {
+      "invoice_number": "string",
+      "date": "string",
+      "total_amount": "float",
+      "vendor_name": "string",
+      "line_items": "array"
+    },
+    "Receipt": {
+      "merchant": "string",
+      "date": "string",
+      "total": "float",
+      "items": "array"
+    },
+    "Contract": {
+      "parties": "array",
+      "start_date": "string",
+      "end_date": "string",
+      "contract_value": "float"
+    }
+  }
