@@ -45,7 +45,6 @@ class AgenticIDP:
         else:
             raise ValueError(f"Unsupported file type: {suffix}")
 
-    # Rest of the class implementation remains the same
     def process_documents(self):
         for doc_path in self.input_dir.glob("*"):
             try:
